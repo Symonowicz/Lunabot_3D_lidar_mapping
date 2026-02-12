@@ -1,0 +1,29 @@
+# ROS2 build outputs
+build/
+install/
+log/
+
+# Colcon / CMake
+*.log
+cmake-build-*/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode / editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ROS bags
+*.db3
+*.bag
+
+# Temporary files
+*.swp
+*~
