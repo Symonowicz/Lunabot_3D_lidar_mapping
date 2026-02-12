@@ -3,7 +3,7 @@ must have ROS2 Humble installed. If it's not then follow this guide https://docs
 Add to .bashrc to avoid having to source humble in every terminal: echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 ## Clone Repo
-git clone https://github.com/<your_org_or_user>/<repo_name>.git
+git clone https://github.com/Symonowicz/Lunabot_3D_lidar_mapping.git
 cd ros2_lidar_ws
 
 ## Stack
