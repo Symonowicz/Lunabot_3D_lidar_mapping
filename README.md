@@ -24,7 +24,7 @@ rosdep install --from-paths src --ignore-src -r -y
 1. Mid360 Driver  
 >>ros2 launch livox_ros_driver2 msg_MID360_launch.py 
 2. Point_lio
->>colcon build --packages-select point_lio --symlink-install --event-handlers console_direct+
+>colcon build --packages-select point_lio --symlink-install --event-handlers console_direct+
 >>ros2 launch point_lio mapping_mid360.launch.py
 3. TF
 >>colcon build --packages-select robot_bringup --symlink-install --event-handlers console_direct+
